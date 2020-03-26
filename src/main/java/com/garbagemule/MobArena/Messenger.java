@@ -21,7 +21,7 @@ public class Messenger
         }
 
         // Otherwise, send the message with the [MobArena] tag.
-        p.sendMessage(prefix + ChatColor.RESET + msg);
+        p.sendMessage(prefix + msg);
         return true;
     }
 
